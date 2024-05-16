@@ -16,5 +16,10 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        var num: Int = 0
+        var jota: Person = Person()
+        jota.die()
+        println(jota.alive)
     }
 }
