@@ -18,7 +18,17 @@ class MainActivity : AppCompatActivity() {
         }
 
         var num: Int = 0
-        var jota: Person = Person()
+        var jota: Person = Person(name = "jota", passport = "AHSUAD8923882")
+        var anonimo: Person = Person()
+        println(jota.alive)
+        println(jota.name)
+        println(jota.passport)
+
+        anonimo.Person()
+        println(anonimo.alive)
+        println(anonimo.name)
+        println(anonimo.passport)
+
         jota.die()
         println(jota.alive)
     }
