@@ -1,6 +1,6 @@
 package com.example.poo
 
-class Person(var name: String = "anonimo", var passport: String? = null) {
+open class Person(var name: String = "anonimo", var passport: String? = null) {
     var alive: Boolean = true
 
     fun Person()
@@ -12,3 +12,4 @@ class Person(var name: String = "anonimo", var passport: String? = null) {
         alive = false
     }
 }
+class Athlete (name: String, passport: String?, var sport: String): Person(name, passport)

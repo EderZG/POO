@@ -33,11 +33,21 @@ class MainActivity : AppCompatActivity() {
         jota.die()
         println(jota.alive)
 
+        var pele: Athlete = Athlete("Pelé", "CSDJKF878", "Futbol")
+        println(pele.alive)
+        println(pele.name)
+        println(pele.passport)
+        println(pele.sport)
+
+        pele.die()
+        println(pele.alive)
+
         var bicho: Pokemon = Pokemon()
         println(bicho.getName())
         println(bicho.getAttackPower())
         bicho.setLife(30f)
         println(bicho.getLife())
+
 
     }
 }
