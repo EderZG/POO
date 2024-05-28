@@ -17,6 +17,18 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        var sc = Subclasses()
+        println(sc.presentar())
+
+        var ani = Subclasses.Anidada()
+        println(ani.presentar())
+
+        var inn = Subclasses().Interna()
+        println(inn.presentar())
+
+
+
+        /*
         var num: Int = 0
         var jota: Person = Person(name = "jota", passport = "AHSUAD8923882")
         var anonimo: Person = Person()
@@ -47,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         println(bicho.getAttackPower())
         bicho.setLife(30f)
         println(bicho.getLife())
-
+        */
 
     }
 }
