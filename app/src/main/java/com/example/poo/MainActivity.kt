@@ -34,6 +34,9 @@ class MainActivity : AppCompatActivity() {
         fernanda.apodo = "SuperFer"
         println(fernanda.saludo())
 
+        var sol : star = star("Sol",696340f,"Via lactea")
+        println(sol)
+
 
         /*
         var num: Int = 0
