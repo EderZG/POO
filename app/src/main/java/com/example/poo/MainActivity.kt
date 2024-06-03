@@ -7,6 +7,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+    object fernanda{
+        var apodo = "fer"
+        fun saludo(){println("Hola, me llaman $apodo")}
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -26,6 +30,9 @@ class MainActivity : AppCompatActivity() {
         var inn = Subclasses().Interna()
         println(inn.presentar())
 
+        println(fernanda.saludo())
+        fernanda.apodo = "SuperFer"
+        println(fernanda.saludo())
 
 
         /*
