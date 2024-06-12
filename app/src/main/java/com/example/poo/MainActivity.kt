@@ -101,5 +101,6 @@ class MainActivity : AppCompatActivity() {
         println(triatleta.PedalearTriatleta())
         println(triatleta.CorrerTriatleta())
         println(triatleta.Descanso())
+
     }
 }
